@@ -44,7 +44,6 @@ public class LatihanIndividu227 {
             jumlah = sc27.nextInt();
             if (jumlah > 3) {
                 diskon = diskon + 0.02f;
-                System.out.println("Jumlah diskon : " + diskon);
                 System.out.println("Masukan harga : ");
                 harga = sc27.nextInt();
                 diskon1 = diskon * harga * jumlah;
@@ -54,7 +53,6 @@ public class LatihanIndividu227 {
                 System.out.println("Jumlah yang harus di bayar : " +jmlBayar);
             }else if (jumlah <=3) {
                 diskon = diskon + 0.01f;
-                System.out.println("Jumlah diskon : " + diskon);
                 System.out.println("Masukan harga : ");
                 harga = sc27.nextInt();
                 diskon1 = diskon * harga * jumlah;
@@ -70,7 +68,6 @@ public class LatihanIndividu227 {
             jumlah = sc27.nextInt();
             if (jumlah > 3) {
                 diskon = 0.05f;
-                System.out.println("Jumlah diskon : " + diskon);
                 System.out.println("Masukan harga : ");
                 harga = sc27.nextInt();
                 diskon1 = diskon * harga * jumlah;
